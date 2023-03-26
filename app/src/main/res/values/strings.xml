@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">View Pager App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alifia">Alifia</string>
+    <string name="aqueline">Aqueline</string>
+    <string name="budi">Budi</string>
+    <string name="camera">Camera</string>
+    <string name="search">Search</string>
+</resources>
