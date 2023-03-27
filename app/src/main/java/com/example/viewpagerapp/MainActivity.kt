@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
+import androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT
 import com.example.viewpagerapp.adapter.ViewPagerAdapter
 import com.example.viewpagerapp.databinding.ActivityMainBinding
 
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.elevation = 0.0f
 
         val adapter = ViewPagerAdapter(supportFragmentManager,
-        1)
+            BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT)
 
         binding.viewPager.adapter = adapter
         binding.tabLayout.setupWithViewPager(binding.viewPager)
